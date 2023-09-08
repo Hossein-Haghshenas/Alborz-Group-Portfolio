@@ -190,3 +190,23 @@ main {
   font-size: 14px;
   line-height: 2;
 }
+
+/* team */
+
+.team .card {
+  box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.team .card-body i {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.team .card-body i:hover {
+  color: #157347 !important;
+}
+
+.team .card-body p {
+  font-size: 15px;
+  line-height: 2;
+}
