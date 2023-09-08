@@ -1,0 +1,30 @@
+@font-face {
+  font-family: IRANSans;
+  src: url("../fonts/IRANSans/IRANSansWeb.woff") format("woff"), url("../fonts/IRANSans/IRANSansWeb_Bold.woff") format("woff"),
+    url("../fonts/IRANSans/IRANSansWeb_Light.woff") format("woff"), url("../fonts/IRANSans/IRANSansWeb_Medium.woff") format("woff");
+}
+
+/* global styles */
+
+* {
+  font-family: IRANSans;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f1fbff;
+}
+
+main {
+  overflow: hidden;
+}
+
+.section-padding {
+  padding: 100px 0;
+}
+
+.w-100 {
+  height: 100vh;
+}
