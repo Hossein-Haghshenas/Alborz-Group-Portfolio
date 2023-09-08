@@ -126,3 +126,35 @@ main {
   background: #00000064;
   z-index: 1;
 }
+
+/* sections header */
+
+.section-header span {
+  position: relative;
+  margin: 0 2rem;
+  min-width: 5rem;
+}
+
+.section-header span:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 150px;
+  background: #c8c8c8;
+  width: 8rem;
+  height: 1px;
+  text-align: left;
+  line-height: normal !important;
+}
+
+.section-header span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 150px;
+  background: #c8c8c8;
+  width: 8rem;
+  height: 1px;
+  text-align: right;
+  line-height: normal !important;
+}
