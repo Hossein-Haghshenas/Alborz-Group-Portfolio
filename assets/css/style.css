@@ -28,3 +28,65 @@ main {
 .w-100 {
   height: 100vh;
 }
+
+/* progressive bar styles */
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 0.2rem;
+  background: linear-gradient(to right, #5fff87, #71ffd0);
+  width: 0;
+  z-index: 100;
+  transition: width 0.2s ease-out;
+}
+
+/* navbar styles */
+
+.navbar-toggler,
+.navbar-toggler:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.navbar-toggler i {
+  font-size: 25px;
+}
+
+.navbar-nav a {
+  position: relative;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.navbar-nav a:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #157347;
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-nav a:hover::before {
+  width: 100%;
+}
+
+.navbar-light .navbar-brand {
+  color: #000;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  color: #000;
+}
+
+.navbar-light .navbar-nav .navbar-link {
+  color: #000;
+}
