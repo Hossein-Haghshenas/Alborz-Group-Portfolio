@@ -103,7 +103,7 @@ main {
   z-index: 2;
 }
 
-.carousel-caption h5 {
+.carousel-caption h2 {
   font-size: 45px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -172,6 +172,7 @@ main {
 .services .card-body i {
   font-size: 50px;
 }
+
 .services .card-body p {
   font-size: 16px;
   line-height: 2;
@@ -186,6 +187,11 @@ main {
 .portfolio .card:hover {
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.208);
 }
+
+.portfolio .card-body h4 {
+  font-size: 20px;
+}
+
 .portfolio .card-body p {
   font-size: 14px;
   line-height: 2;
@@ -206,6 +212,10 @@ main {
   color: #157347 !important;
 }
 
+.team .card-body h4 {
+  font-size: 20px;
+}
+
 .team .card-body p {
   font-size: 15px;
   line-height: 2;
@@ -216,7 +226,7 @@ main {
 @media only screen and (min-width: 767px) and (max-width: 991px) {
   /* carousel styles */
   .carousel-caption {
-    bottom: 370px;
+    bottom: 160px;
   }
   .carousel-caption p {
     width: 100%;
@@ -242,10 +252,10 @@ main {
     object-fit: fill;
   }
   .carousel-caption {
-    bottom: 125px;
+    bottom: 210px;
   }
-  .carousel-caption h5 {
-    font-style: 17px;
+  .carousel-caption h2 {
+    font-size: 20px;
   }
   .carousel-caption a {
     padding: 0.8rem 1rem;
@@ -271,5 +281,9 @@ main {
   /* card styles */
   .card {
     margin-bottom: 30px;
+  }
+  /* footer text */
+  footer > * {
+    font-size: 13px;
   }
 }
