@@ -210,3 +210,66 @@ main {
   font-size: 15px;
   line-height: 2;
 }
+
+/* responsive mode */
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  /* carousel styles */
+  .carousel-caption {
+    bottom: 370px;
+  }
+  .carousel-caption p {
+    width: 100%;
+  }
+  /* card styles */
+  .card {
+    margin-bottom: 30px;
+  }
+  /* card image styles */
+  .img-area img {
+    width: 100%;
+    max-height: 20rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* nav styles */
+  .navbar-nav {
+    text-align: center;
+  }
+  /* carousel styles */
+  .carousel-item img {
+    object-fit: fill;
+  }
+  .carousel-caption {
+    bottom: 125px;
+  }
+  .carousel-caption h5 {
+    font-style: 17px;
+  }
+  .carousel-caption a {
+    padding: 0.8rem 1rem;
+  }
+  .carousel-caption p {
+    width: 100%;
+    line-height: 1.6;
+    font-size: 12px;
+  }
+  /* section header styles */
+  .section-header span:before {
+    left: 130px;
+    width: 5rem;
+  }
+  .section-header span:after {
+    right: 130px;
+    width: 5rem;
+  }
+  /* about styles */
+  .about-text {
+    margin-top: 50px;
+  }
+  /* card styles */
+  .card {
+    margin-bottom: 30px;
+  }
+}
